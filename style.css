@@ -1,0 +1,31 @@
+.vertical-menu {
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+     -webkit-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.vertical-menu a {
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: #eee;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #c35;
+    color: #FFFFFF;
+}
+
+.vertical-menu a.disable:hover {
+    background-color: #eee;
+    color: lightgrey;
+    cursor: default;
+}
