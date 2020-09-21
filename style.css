@@ -19,13 +19,16 @@
     text-decoration: none;
 }
 
+
 .vertical-menu a:hover {
     background-color: #c35;
     color: #FFFFFF;
 }
 
-.vertical-menu a.disable:hover {
+.vertical-menu a.disable{
     background-color: #eee;
     color: lightgrey;
+}
+.vertical-menu a.disable:hover {
     cursor: default;
 }
