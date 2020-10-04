@@ -1,15 +1,57 @@
 <!DOCTYPE html>
-<html>
 <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" type="text/css" href="style.css" />
+          <meta http-equiv="content-type" content="text/html; charset=utf-8" content="no-cache">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>start</title>
 </head>
+<style>
+html {
+     -ms-user-select: none;
+     -moz-user-select: none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     }
+.link-box {
+       margin: 0;
+       padding: 0;
+       text-align: center;
+          }
+.list-box:after {
+       overflow: hidden;
+       display: block;
+       clear: both;
+       height: 0;
+       font-size: 0;
+	        }
+a{
+       display : inline-block;
+       margin: 30px 30px ;
+       cursor: pointer;
+       font-weight: thin;
+       color: #000;
+       font-family: Courier New, Courier, mono;
+       border: 1px groove;
+       padding: 5px;
+       font-size: 22px;
+       text-decoration: none;
+}
+  a:hover {
+       background: #E0E0E0;
+   }
+  .disable {
+       color: #E0E0E0 ;
+   }
+  .disable:hover {
+       background:none !important;
+       cursor: default;
+   }
+</style>
 <body>
-      <div class="vertical-menu">
-           <a href="#">[main]</a>
-           <a href="https://shchitaev.github.io/portfolio/">[portfolio]</a>
-           <a href="#projects" class="disable">[projects]</a>
-           <a href="#stream" class="disable">[stream]</a>
+      <div class="link-box">
+           <a href="https://github.com/shchitaev/portfolio">portfolio</a>
+           <a href="https://shchitaev.github.io">menu</a>
+           <a href="https://github.com/shchitaev/web-stream">stream</a>
+           <a class="disable">arduino-ibatton</a>
       </div>
 </body>
 </html>
