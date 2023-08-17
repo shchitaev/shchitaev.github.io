@@ -1,44 +1,48 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" content="no-cache">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>link</title>
+    <title>Link</title>
+    <style>
+        html {
+            -ms-user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+        }
+        
+        .link-box {
+            text-align: center;
+        }
+        
+        a {
+            display: inline-block;
+            margin: 30px 30px;
+            color: black;
+            font-family: "Lucida Console", Monaco, monospace;
+            padding: 5px;
+            font-size: 2em;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background: #E0E0E0;
+        }
+        
+        .disable {
+            color: silver;
+            pointer-events: none;
+            background: none !important;
+            cursor: default;
+        }
+    </style>
 </head>
-<style>
-html {
-     -ms-user-select: none;
-     -moz-user-select: none;
-     -khtml-user-select: none;
-     -webkit-user-select: none;
-     }
-.link-box {
-       text-align: center;
-          }
-a{
-       display : inline-block;
-       margin: 30px 30px;
-       color: black;
-       font-family: "Lucida Console", Monaco, monospace;
-       padding: 5px;
-       font-size: 2em;
-       text-decoration: none;
- }
-a:hover {
-       background: #E0E0E0;
-   }
-.disable {
-       color: silver;
-       pointer-events: none;
-       background:none !important;
-       cursor: default;
-   }
-
-</style>
 <body>
-      <div class="link-box">
-           <a href="https://shchitaev.github.io">menu</a>
-           <a href="https://shchitaev.github.io/xorcrypt">xorcrypt</a>
-           <a href="https://shchitaev.github.io/coinChose">coinChose</a>
-      </div>
+    <div class="link-box">
+        <a href="https://shchitaev.github.io">menu</a>
+        <a href="https://shchitaev.github.io/xorcrypt">xorcrypt</a>
+        <a href="https://shchitaev.github.io/coinChose">coinChose</a>
+    </div>
 </body>
 </html>
